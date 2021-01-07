@@ -1,3 +1,3 @@
 module.exports = {
-  URL: 'mongodb+srv://quocthoaitran:25061997@cluster0.aep8s.mongodb.net/node-jwt-auth-mongodb?retryWrites=true&w=majority'
+  URL: `mongodb+srv://${process.env.DB_USER_NAME}:${process.env.DB_PASSWORD}@cluster0.aep8s.mongodb.net/no${process.env.DB_NAME}?retryWrites=true&w=majority`
 }

@@ -10,8 +10,8 @@ Use the git command to clone project
 
 ## Working with:
 
-[Json web token](https://www.npmjs.com/package/jsonwebtoken)
-[mongoose](https://www.npmjs.com/package/mongoose)
+[Json web token](https://www.npmjs.com/package/jsonwebtoken) <br>
+[Mongoose](https://www.npmjs.com/package/mongoose)
 
 ## Installation and start
 

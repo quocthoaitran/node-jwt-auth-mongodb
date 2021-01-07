@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
+const dotenv = require("dotenv")
 
 const app = express()
 
@@ -9,6 +10,8 @@ app.use(cors())
 app.use(bodyParser.json())
 
 app.use(bodyParser.urlencoded({ extended: true}))
+
+dotenv.config()
 
 const db = require("./app/models")
 const dbConfig = require('./app/config/db.config')
